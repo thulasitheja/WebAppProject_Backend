@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Thulasi Theja Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar" id ="navbarid">  
+                <div>
+                    <img class ="crop_image nav_stack" src="Thulasi_profile.jpg" alt="My Profile Pic"/> 
+                    <h2 class = "head_name">Thulasi Theja</h2> 
+                    <a class="nav_text " href="#nav">Home</a>
+                    <a class="nav_text " href="#About_Me">  About Me </a>
+                    <a class="nav_text " href="#Education"> Education</a>
+                    <a class="nav_text " href="#Projects"> Projects</a>
+                    <a class="nav_text " href="#Experience">Experience</a> 
+                    <a class="nav_text " href="#Blogs">Blogs</a>
+                    <a class="nav_text " href="#footer">Contact</a>  
+                    <a href="javascript:void(0);" class="icon" onclick="hamBurger()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>                               
+            </nav>
+            <div id = "About_Me" class="about_me_data">
+                <h1 style="padding-left: 10px;">About Me</h1>
+                <h2 style="padding-left: 50px;">Graduate student at University of New Haven with major in Computer Science. Everyday gamer who loves to code</h2>
+                <h1 style="padding-left: 10px;">Skills</h1>
+                <h3 style="padding-left: 50px;">Languages: Python, C, Java, CPP, C#, .Net, SQL, JavaScript</h3>
+                <h3 style="padding-left: 50px;">Python Libraries: Numpy, Pandas, Matplotlib, Scikit-learn, Selenium</h3>
+                <h3 style="padding-left: 50px;">Operating Systems: Windows, Unix, Linux</h3>
+            </div>
+            <div id = "Education" class="education_data"> 
+                <h1 style="padding-left: 10px;">Education</h1>
+                <h2 style="padding-left: 50px;">University of New Haven (2021 - 2022)</h2>
+                <h3 style="padding-left: 70px;">Master of Science - Computer Science, GPA - 3.82/4</h2>
+                <h2 style="padding-left: 50px;">JNTU Anantapur (2015 - 2019)</h2>
+                <h3 style="padding-left: 70px;">Bachelor of Technology - Computer Science, GPA - 3.61/4</h2>
+            </div>
+            <div id = "Projects" class="projects_data"> 
+                <h1 style="padding-left: 10px;">Projects</h1>
+                <h2 style="padding-left: 50px;">Whole Foods Network</h2>
+                <h3 style="padding-left: 70px;">
+                    <ul>
+                        <li>Designed, developed, and implemented the logical and physical parts of an Enterprise network for a Grocery 
+                        Chain Store locations using Cisco Packet Tracer to regulate the information/data flow in network endpoints.</li>
+                    </ul>
+                </h3>
+                <h2 style="padding-left: 50px;">Sober Way</h2>
+                <h3 style="padding-left: 70px;">
+                    <ul>
+                        <li>Worked on a team to develop a word quiz game as a web application deployed in local host that entered the Game Hall
+                            of Fame using Django, HTML, CSS, Python, ElephantSQL, MS Power BI with Face recognition that rewards coupons to 
+                            individuals fighting alcohol addiction based on their responses</li>
+                    </ul>
+                </h3>
+            </div>
+            <div id = "Experience" class="experience_data"> 
+                <h1 style="padding-left: 10px;">Experience</h1>
+                <h2 style="padding-left: 50px;">Systems Engineer</h2>
+                <h3 style="padding-left: 70px;">
+                    <ul>
+                        <li>
+                            Migrated and deployed the codebase of Retail, CPG and Logistics Walmart applications from on-prem server to cloud 
+                            (Azure PaaS) to minimize application maintenance costs.
+                        </li>
+                    </ul>
+                </h3>
+                <h2 style="padding-left: 50px;">Software Developer Intern</h2>
+                <h3 style="padding-left: 70px;">
+                    <ul>
+                        <li>
+                            Led a team of 7 in development of a retail web application in less than a month using ASP .NET MVC Core with C#, SQL Server and Model View Controller
+                             architecture that enables end users and administrators to access, modify products data based on the validation of credentials.
+                        </li>
+                    </ul>
+                </h3>
+            </div>
+            <div id = "Blogs"> 
+                <h1 style="padding-left: 10px;">Blogs</h1>
+                    <div class="blogs_column">
+                        <a href="https://securityintelligence.com/articles/ai-security-threats-risk/">
+                            <img src="ai-big-data.jpg" alt="Snow" class="blogs_image">
+                        </a>    
+                    </div>
+                    <div class="blogs_column">
+                        <a href="https://www.geeksforgeeks.org/web-development/">
+                            <img src="Web_Development.jpg" alt="Forest" class="blogs_image">
+                        </a>
+                    </div>
+                    <div class="blogs_column">
+                        <a href="https://www.makeuseof.com/windows-11-improve-security/">
+                            <img src="Windows_11.jpg" alt="Mountains" class="blogs_image">
+                        </a>
+                    </div>
+            </div>
+            <footer id = "footer"> 
+                <h1 style="padding-left: 10px; color: white;">Contact</h1>
+                <div class="align_footer">
+                    <a class = "foot_text" href="https://www.google.com/gmail/about/" >
+                        <img src="gmail.png" class="icon_size">
+                    </a>
+                    <a class = "foot_text" href="https://www.linkedin.com/">
+                        <img src="LinkedIn.png" class="icon_size">
+                    </a>
+                    <a class = "foot_text" href="https://twitter.com/?lang=en">
+                        <img src="twitter.png" class="icon_size">
+                    </a>
+                    <a class = "foot_text" href="https://www.facebook.com/">
+                        <img src="facebook.png" class="icon_size">
+                    </a>       
+                </div>             
+            </footer>
+        </div>       
+        <script>
+            function hamBurger() {
+                var x = document.getElementById("navbarid");
+                if (x.className === "navbar") {
+                    x.className += "hamburger";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+    </body>
+</html>
